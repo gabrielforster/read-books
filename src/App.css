@@ -1,38 +1,167 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
+
+:root{
+    --primary: #1f2d3d;
+    --secondary: #3c4c5b;
+    --button-color: #3bb879;
+    --white: #ddd;
+  }   
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+  font-weight: bold;
+  background-color: var(--primary);
+  border-bottom: solid 2px #121212;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header .inner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 0;
+}
+
+header a {
+  color: var(--white);
+  font-size: 1.25rem;
+  text-decoration: none;
+  transition: all 0.35s ease;
+}
+
+header .menu {
+  transform: 0.8s;
+}
+
+header .menu a:hover {
+  opacity: 0.6;
+}
+
+header .logo{
+  display: flex;
+}
+
+header img{
+  width: 2rem;
+}
+
+header .logo a {
+  padding-left: 0.2rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+main{
+  margin-top: 2rem;
+}
+
+.search-book input {
+  width: 100%;
+  background-color: var(--secondary);
+  padding: 10px;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  border: none;
+  color: var(--white);
+  font-size: 1.25rem;
+}
+
+.results {
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.results li {
+  list-style: none;
+}
+
+ .content{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  box-sizing: border-box;
+}
+
+.book-card {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.book-card .info {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.book-poster{
+  width: 90px;
+  height: 130px;
 }
 
-.App-link {
-  color: #61dafb;
+.book-card .book-poster img,
+.empty-poster {
+  width: 90px;
+  height: 130px;
+  background-color: #dbdada;
+  border-radius: 5px;
+  margin-right: 15px;
+  display: block;
+  color: transparent;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.book-card .info .title {
+  font-size: 1.25rem;
+
+  font-weight: 600;
+  margin: 0;
+}
+
+.book-card .info .date {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+
+
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+
+
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
   }
 }
