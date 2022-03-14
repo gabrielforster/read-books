@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import axios from 'axios'
+import { BookCard } from './BookCard'
 
 export const Main = () => {
- 
     const [search, setSearch] = useState("")
     const [bookData, setData] = useState([])
     let books = bookData
@@ -15,7 +15,7 @@ export const Main = () => {
   
     return (
         <main>
-            <div className='container'>
+            <div className='add-content'>
                 <div className='search-book'>
                     <input value={search} 
                     onChange={e=>setSearch(e.target.value)}
@@ -28,29 +28,9 @@ export const Main = () => {
                     </input>
                 
                     <div className='content'>
-                    {books.map((item)=>{
-                        let thumbnail = item.volumeInfo.imageLinks && item.volumeInfo.imageLinks.smallThumbnail
-                        if(thumbnail !== undefined)
                         {
-                            return(
-                            <>
-                                <div className='book-card'>
-                                    <img className='book-poster' src={thumbnail} alt=""/>
-                                    <div className="info">
-                                        <div className='header'>
-                                            <h3 className='title'>{item.volumeInfo.title}</h3>
-                                            <p className='author'>{item.volumeInfo.authors}</p>
-                                            <p className='author'>{item.volumeInfo.publishedDate}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </>
-                            )
-                            }
-                        return null
+                            <BookCard book={books}/>
                         }
-                    )
-                    } 
                     </div>
                 </div>
             </div>
