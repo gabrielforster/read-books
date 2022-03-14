@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./src/public/logo.svg" width="300px" />
+  <img src="./public/logo.svg" width="300px" />
   <br>
   Read-books
 </h1>
