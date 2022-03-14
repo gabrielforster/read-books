@@ -2,8 +2,8 @@
   <img src="./public/logo.svg" width="300px" />
   <br>
   Read-books
-  <p>Desenvolvido por Gabriel Forster</p>
 </h1>
+<p align="center">Desenvolvido por Gabriel Forster</p>
 
 ## Descrição
 Projeto desenvolvido para realizar pesquisas sobre livros, para encontrar informações como: autor, editora, data de lançamento, número de páginas e descrição.
