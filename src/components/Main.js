@@ -9,8 +9,10 @@ export const Main = () => {
     const searchBook=(evt) => {
       if(evt.key === "Enter")
       {
-        axios.get('https://www.googleapis.com/books/v1/volumes?q='+ search +'&key=AIzaSyAjxRebhAJBpbVFloaCOeiV5sDUosoJtEk&maxResults=40').then(res=>setData(res.data.items)).catch(err=>console.log(err))
-      }
+        axios.get('https://www.googleapis.com/books/v1/volumes?q='+ search +'&key=AIzaSyAjxRebhAJBpbVFloaCOeiV5sDUosoJtEk&maxResults=40')
+        .then(res=>setData(res.data.items))
+        .catch(err=>console.log(err))
+    }
     }
   
     return (
@@ -23,7 +25,7 @@ export const Main = () => {
                     type='text' 
                     placeholder='Pesquise um livro!' 
                     id='search-content'
-                    autocomplete="off"
+                    autoComplete="off"
                     >
                     </input>
                 

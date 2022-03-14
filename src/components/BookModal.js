@@ -18,7 +18,8 @@ export const BookModal = ({show, item, onClose}) => {
                     <div className="info">
                         <h1>{item.volumeInfo.title}</h1>
                         <h3>{item.volumeInfo.authors}</h3>
-                        <h4>{item.volumeInfo.publisher}<span>{item.volumeInfo.publisherDate}</span></h4>
+                        <h4>{item.volumeInfo.publisher}<span> - {item.volumeInfo.publishedDate}</span></h4>
+                        <h4>N° de páginas: {item.volumeInfo.pageCount}</h4>
                         <a target='_blank' rel='noreferrer' href={item.volumeInfo.previewLink}>Mais</a>
                     </div>
                 </div>
