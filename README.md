@@ -9,14 +9,14 @@ Projeto desenvolvido para realizar pesquisas sobre livros, para encontrar inform
 
 ## Tecnologias
 No projeto foram utilizadas as seguintes tecnologias:
-   - [ReactJS] (https://reactjs.org/) 
-   - [Axios] (https://github.com/axios/axios)
+   - [ReactJS](https://reactjs.org/) 
+   - [Axios](https://github.com/axios/axios)
 
 ## Como utilizar 
-Acesse o link do projeto no [Github Pages] (https://gabrielforster.github.io/read-books/)
+Acesse o link do projeto no [Github Pages](https://gabrielforster.github.io/read-books/)
 
 ## Como ajudar no código
-Para clonar e executar o código você precisar possuir [Git] (https://git-scm.com/downloads), [Nodejs] (https://nodejs.org/) e [Yarn] (https://yarnpkg.com/).
+Para clonar e executar o código você precisar possuir [Git](https://git-scm.com/downloads), [Nodejs](https://nodejs.org/) e [Yarn](https://yarnpkg.com/).
 E no seu terminal executar os seguintes comandos: 
 
 ```bash
