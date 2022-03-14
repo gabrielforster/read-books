@@ -20,15 +20,15 @@ Para clonar e executar o código você precisar possuir [Git] (https://git-scm.c
 E no seu terminal executar os seguintes comandos: 
 
 ```bash
-# Para clonar este repositório
+# Clone o repositório
 $ git clone https://github.com/gabrielforster/read-books.git
 
-# Entrar no repositório
+# Entre no repositório
 $ cd read-books/
 
-# Instalar as dependências do projeto
+# Instale as dependências do projeto
 $ yarn
 
-#  Executar
+#  Execute
 $ yarn start
 ```
