@@ -2,6 +2,7 @@
   <img src="./public/logo.svg" width="300px" />
   <br>
   Read-books
+  <p>Desenvolvido por Gabriel Forster</p>
 </h1>
 
 ## Descrição
