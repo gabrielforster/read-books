@@ -1,6 +1,6 @@
 <div align="center">
 <h1 >
-  <img src="./public/logo.svg" width="300px" />
+  <img src="./public/logo.svg" width="250px" />
   <br>
   Read-books
 </h1>
