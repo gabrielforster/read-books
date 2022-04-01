@@ -9,7 +9,7 @@ export const Header = () => {
             <div className="inner-content">
                 <div className="logo">
                     <img src={logo} alt="logo do projeto"></img>
-                    <a href='/' alt='page'>Read Books</a>
+                    <a href='/read-books/' alt='page'>Read Books</a>
                 </div>
 
                 <div className='menu'>
