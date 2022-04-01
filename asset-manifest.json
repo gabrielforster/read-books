@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/read-books/static/css/main.3d18f08a.css",
-    "main.js": "/read-books/static/js/main.f65d0817.js",
+    "main.js": "/read-books/static/js/main.1f2e6dfb.js",
     "static/media/github.png": "/read-books/static/media/github.65a029dd14ae5c405656.png",
     "static/media/logo.svg": "/read-books/static/media/logo.9b7769f9fe39648c3050045df6fd3609.svg",
     "index.html": "/read-books/index.html",
     "main.3d18f08a.css.map": "/read-books/static/css/main.3d18f08a.css.map",
-    "main.f65d0817.js.map": "/read-books/static/js/main.f65d0817.js.map"
+    "main.1f2e6dfb.js.map": "/read-books/static/js/main.1f2e6dfb.js.map"
   },
   "entrypoints": [
     "static/css/main.3d18f08a.css",
-    "static/js/main.f65d0817.js"
+    "static/js/main.1f2e6dfb.js"
   ]
 }
